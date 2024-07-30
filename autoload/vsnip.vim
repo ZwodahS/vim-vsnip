@@ -191,6 +191,7 @@ function! vsnip#get_complete_items(bufnr) abort
         \   'abbr': l:prefix,
         \   'kind': 'Snippet',
         \   'menu': l:menu,
+        \   'description': l:snippet.description,
         \   'dup': 1,
         \   'user_data': json_encode({
         \     'vsnip': {
